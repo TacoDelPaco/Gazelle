@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Cantarell');
 html,body {
 	margin: 0;
 	padding: 0;
@@ -69,13 +70,13 @@ body {
 	font-size: 11px;
 }
 body,div,p,span {
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: "Cantarell", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 tbody .body {
 	width: 100%;
 }
 h2,h3 {
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	font-family: "Cantarell", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -335,6 +336,7 @@ input[type="submit"],input[type="button"] {
 }
 input[type="submit"]:hover,input[type="button"]:hover {
 	background: #fff;
+	cursor: pointer;
 }
 textarea {
 	margin-bottom: 20px;
@@ -413,7 +415,7 @@ textarea {
 .head strong {
 	font-size: 16px;
 	font-weight: bold;
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	font-family: "Cantarell", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 .head {
 	margin-bottom: 10px;
@@ -618,7 +620,7 @@ ul.stats {
 	padding: 0.5em;
 	font-size: 12px;
 	font-weight: bold;
-	font-family: Georgia,Palatino,"Palatino Linotype",Times,"Times New Roman",serif;
+	font-family: "Cantarell", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 #menu {
 	top: 101px;
@@ -697,7 +699,7 @@ table tr td.unread_locked_sticky {
 }
 .filter_torrents .head,.filter_torrents .head strong {
 	color: #aaa;
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	font-family: "Cantarell", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	margin-top: 10px;
